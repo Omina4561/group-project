@@ -1,0 +1,50 @@
+.header-1{
+    height: 50px;
+    background-color: #010101;
+}
+
+.header-1-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+.head-left{
+    display: flex;
+    gap: 22px;
+    color: white;
+    font-weight: 600;
+    font-weight: 14;
+}
+
+.phone-num, .email{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-1-parent a{
+    text-decoration: none;
+    color: #4F8FF0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .container{
+        max-width: 670px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        max-width: 380px;
+    }
+    .email{
+        display: none;
+    }
+}
