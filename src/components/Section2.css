@@ -1,0 +1,142 @@
+.section-2 {
+    background-color: #F7F7F7;
+    padding: 65px;
+}
+
+.section-2-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-2-text {
+    font-size: 16px;
+    font-weight: 400;
+    width: 900px;
+    justify-self: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.card {
+    width: 424px;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 50px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    color: #222222;
+    transition: 0.3s;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.hover-img {
+    display: none;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #4F8FF0;
+    color: white;
+
+    .hover-none-img {
+        display: none;
+    }
+
+    .hover-img {
+        display: block;
+    }
+}
+
+.btn-1 {
+    width: 138px;
+    height: 49px;
+    border: none;
+    background-color: #4F8FF0;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 630px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-2-text {
+        width: 100%;
+    }
+
+    .btn-1 {
+        margin-left: 280px;
+    }
+
+    .card {
+        width: 290px;
+        height: 200px;
+        padding: 25px 27px;
+    }
+
+    .card-title {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .card-text {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .card-parent {
+        flex-wrap: nowrap;
+        height: 290px;
+        overflow-x: auto;
+        gap: 25px;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .btn-1 {
+        margin-left: 120px;
+    }
+
+    .card {
+        width: 290px;
+        height: 200px;
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        padding: 25px 27px;
+    }
+
+
+
+
+}
