@@ -1,0 +1,141 @@
+.section4{
+
+   background-image: url(../img/background.svg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.container4{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.text4{
+    font-family: Nunito Sans;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 28px;
+text-transform: uppercase;
+color: #222222;
+padding-top: 40px;
+}
+.div2{
+    width: 55px;
+height: 2px;
+background-color: #4F8FF0;
+margin-left: 10px;
+margin-top: 10px;
+}
+.rasm1{
+  margin-left: 1100px;
+}
+
+.card-parent4{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.card4{
+    width: 648px;
+height: 244px;
+background-color: #FFFFFF;
+box-shadow: 2px 2px 10px 0px #21212126;
+padding-left: 30px;
+}
+.top{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    gap: 30px;
+}
+.mini-text4{
+    margin-top: 10px;
+}
+.job2{
+    font-family: Nunito Sans;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+color: #222222;
+
+}
+.name2{
+    font-family: Nunito Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+color: #222222;
+}
+.title4{
+    width: 584px;
+height: 84px;
+margin-top: 30px;
+    font-family: Nunito Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #222222;
+}
+.rasm2{
+    margin-left: 120px;
+}
+.div-btn{
+    margin-left: -20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.btn1{
+    width: 146px;
+height: 49px;
+text-align: center;
+border-width: 2px;
+background: #4F8FF0;
+border: 2px solid #4F8FF0;
+font-family: Nunito Sans;
+font-weight: 900;
+font-style: Black;
+font-size: 14px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.btn2{
+    width: 185px;
+height: 49px;
+background-color: #E6E6E6;
+border: 2px solid #E6E6E6;
+font-family: Nunito Sans;
+font-weight: 900;
+font-style: Black;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+color: #222222 ;
+}
+
+
+@media screen and (max-width:768px) {
+    .section4{
+        max-width: 768px;
+        height: 712px;
+    }
+    /* .title3{
+        width: 696px;
+height: 57px;
+
+        font-size: 16px;
+    } */
+    
+    .card-parent4{
+     
+         flex-wrap: nowrap;
+        height: 390px;
+        overflow-x: auto;
+        gap: 25px;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+}
+
