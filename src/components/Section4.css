@@ -1,0 +1,94 @@
+.section3{
+    height: 739px;
+    background-color: #F7F7F7;
+}
+.text3{
+    width: 235px;
+height: 55px;
+margin: 0 auto;
+    font-family: Nunito Sans;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 28px;
+color: #222222;
+text-transform: uppercase;
+text-align: center;
+padding-top: 70px;
+}
+.div3{
+width: 55px;
+height: 2px;
+background-color: #4F8FF0;
+margin-left: 80px;
+margin-top: 10px;
+}
+.title3{
+    width: 920px;
+height: 38px;
+font-family: Nunito Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #222222;
+text-align: center;
+margin: 70px auto;
+}
+.card-parent3{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.card3{
+    width: 312px;
+height: 414px;
+padding-bottom: 24px;
+background-color: #FFFFFF;
+box-shadow: 2px 2px 12px 0px #2121211F;
+}
+.name{
+    font-family: Nunito Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+color: #222222;
+text-align: center;
+margin-top: 20px;
+}
+.job{
+    font-family: Nunito Sans;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+color: #222222;
+text-align: center;
+text-transform: lowercase;
+margin-top: 8px;
+}
+/* 
+.img1{
+    width: 100%;
+} */
+
+@media screen and (max-width:768px) {
+    .section3{
+        max-width: 768px;
+        height: 712px;
+    }
+    .title3{
+        width: 696px;
+height: 57px;
+
+        font-size: 16px;
+    }
+    
+    .card-parent3{
+     
+         flex-wrap: nowrap;
+        height: 390px;
+        overflow-x: auto;
+        gap: 25px;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+}

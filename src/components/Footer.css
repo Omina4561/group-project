@@ -1,0 +1,150 @@
+.footer{
+    max-width: 1550px;
+    height: 584px;
+    background-color: #181818;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+.container4{ 
+    max-width: 1150px;
+    margin: 60px auto;
+    border: 2px solid white;
+}
+.foot-top{
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 40px;
+    border-bottom: 3px solid #8C8C8C;
+    padding-bottom: 20px;
+}
+.foot-title{
+    width: 862px;
+height: 38px;
+    font-family: Nunito Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #F8F5F4;
+text-transform: lowercase;
+}
+.card-parent4{
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.cards{
+    width: 419px;
+height: 213px;
+}
+.box{
+    margin-top: 18px;
+    display: flex;
+}
+.img10{
+    width: 55px;
+height: 55px;
+}
+.h5{
+    font-family: Nunito Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+color: #8C8C8C;
+text-transform: uppercase;
+margin-left: 16px;
+margin-top: 10px;
+}
+.h4{
+    font-family: Nunito Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+color: white;
+margin-left: 20px;
+}
+.nav1{
+    width: 140px;
+height: 182px;
+margin-top: 50px;
+display: flex;
+gap: 12px;
+flex-wrap: wrap;
+}
+a{
+    font-family: Nunito Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+color: white;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+}
+a:hover{
+    color: #4F8FF0;
+    
+}
+.cards3{
+    margin-top: 50px;
+    width: 424px;
+height: 217px;
+}
+.top3{
+    display: flex;
+    gap: 40px;
+}
+.name4{
+    
+font-family: Nunito Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+color: white;
+margin-top: 6px;
+}
+.job4{
+    margin-top: 8px;
+    font-family: Nunito Sans;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+color: #FFFFFF;
+}
+.foot-title2{
+    font-family: Nunito Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #F8F5F4;
+margin-top: 10px;
+}
+.btn4{
+    width: 241px;
+height: 49px;
+background-color: #4F8FF0;
+border: 2px solid #4F8FF0;
+font-family: Nunito Sans;
+font-weight: 900;
+font-style: Black;
+font-size: 14px;
+color: #FFFFFF;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;
+margin-top: 20px;
+}
+.bottom{
+    max-width: 1250px;
+    font-family: Nunito Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #FFFFFF;
+margin-top: 80px;
+    background-color: #181818;
+ display: flex;
+ justify-content: space-between;
+}
