@@ -1,7 +1,7 @@
-import '../components/Header1.css'
+import '../components/Header.css'
 import img from '../img/phone.svg'
 import img1 from '../img/mail.svg'
-export default function Header1(){
+export default function Header(){
     return(
         <>
         <header className="header-1">
